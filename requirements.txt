@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+nltk
+tensorflow
+matplotlib
+seaborn
+joblib
+jupyter
+requests
+beautifulsoup4
+trafilatura
