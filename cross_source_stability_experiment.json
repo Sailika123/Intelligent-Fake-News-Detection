@@ -1,0 +1,49 @@
+{
+  "logistic_regression": {
+    "seen_subjects": [
+      "News",
+      "left-news",
+      "politicsNews"
+    ],
+    "unseen_subjects": [
+      "worldnews",
+      "politics",
+      "Government News",
+      "US_News"
+    ],
+    "n_train": 20950,
+    "n_test": 17703,
+    "accuracy": 0.9171,
+    "precision": 0.8805,
+    "recall": 0.9869,
+    "f1": 0.9306,
+    "roc_auc": 0.9833
+  },
+  "bilstm_fair": {
+    "seen_subjects": [
+      "News",
+      "left-news",
+      "politicsNews"
+    ],
+    "unseen_subjects": [
+      "worldnews",
+      "politics",
+      "Government News",
+      "US_News"
+    ],
+    "n_train": 20950,
+    "n_test": 17703,
+    "accuracy": 0.962,
+    "precision": 0.9586,
+    "recall": 0.9747,
+    "roc_auc": 0.987,
+    "train_time_s": 125.5
+  },
+  "ensemble_50_50": {
+    "weight_deep": 0.5,
+    "accuracy": 0.9645,
+    "precision": 0.9586,
+    "recall": 0.9794,
+    "f1": 0.9689
+  }
+}

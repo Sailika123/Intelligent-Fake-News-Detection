@@ -1,0 +1,7 @@
+,missing_count,missing_pct,dtype
+title,0,0.0,str
+text,0,0.0,str
+subject,0,0.0,str
+date,0,0.0,str
+label,0,0.0,int64
+label_name,0,0.0,str
